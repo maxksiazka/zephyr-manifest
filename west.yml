@@ -1,0 +1,20 @@
+manifest:
+  version: "0.12"
+
+  defaults:
+    remote: zephyrproject-rtos
+
+  remotes:
+    - name: zephyrproject-rtos
+      url-base: https://github.com/zephyrproject-rtos
+
+  projects:
+    - name: zephyr
+      remote: zephyrproject-rtos
+      path: zephyrproject/zephyr
+      revision: main
+      import: 
+        path-prefix: zephyrproject
+
+  self:
+    path: .
