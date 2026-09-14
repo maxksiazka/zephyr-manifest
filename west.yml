@@ -7,6 +7,8 @@ manifest:
   remotes:
     - name: zephyrproject-rtos
       url-base: https://github.com/zephyrproject-rtos
+    - name: hefajstos
+      url-base: https://github.com/KoNaR-Hefajstos
 
   projects:
     - name: zephyr
@@ -16,5 +18,16 @@ manifest:
       import: 
         path-prefix: zephyrproject
 
+    - name: mms_chainbus_driver
+      remote: hefajstos
+      path: modules/mms_chainbus_driver
+      
+    - name: mms_hat_driver
+      remote: hefajstos
+      path: modules/mms_hat_driver
+
+    - name: mms_board_definitions
+      remote: hefajstos
+      path: modules/mms_board_definitions
   self:
     path: .
