@@ -13,7 +13,7 @@ manifest:
   projects:
     - name: zephyr
       remote: zephyrproject-rtos
-      path: zephyrproject/zephyr
+      path: zephyr
       revision: main
       import: 
         path-prefix: zephyrproject
