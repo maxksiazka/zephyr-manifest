@@ -7,6 +7,8 @@ manifest:
   remotes:
     - name: zephyrproject-rtos
       url-base: https://github.com/zephyrproject-rtos
+    - name: maxksiazka
+      url-base: https://github.com/maxksiazka
     - name: hefajstos
       url-base: https://github.com/KoNaR-Hefajstos
 
@@ -29,5 +31,6 @@ manifest:
     - name: mms_board_definitions
       remote: hefajstos
       path: modules/mms_board_definitions
+
   self:
     path: .
